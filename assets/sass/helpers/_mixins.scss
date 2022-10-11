@@ -1,0 +1,7 @@
+//=================== display flex==================
+@mixin d-flex($justifyContent,$alignItems,$flDirection) {
+    display: flex;
+    justify-content: $justifyContent;
+    align-items: $alignItems;
+    flex-direction:$flDirection;
+   }

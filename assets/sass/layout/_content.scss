@@ -1,0 +1,40 @@
+.raceArea{
+    position: relative;
+    max-width:1800px ;
+    height:670px;
+    margin: 0 auto;
+    background:url('/assets/images/area.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+        .horse{
+            width: 150px;
+            background-color: red;
+            img{
+                width: 130px;
+                position: absolute;
+            }
+            .horse-pink{
+                top: 90px;
+                left: 70px;
+            }
+            .horse-blue{
+                top: 500px;
+                left: 70px;
+            }
+            .horse-yellow{
+                top: 300px;
+                left: 70px;
+            }
+        }
+
+}
+
+#winner{
+    margin-top:1rem;
+    font:{
+    weight:bold;
+    size:2rem;
+    family: $font-workSans;
+    }
+}

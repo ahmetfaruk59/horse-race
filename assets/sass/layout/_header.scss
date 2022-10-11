@@ -1,0 +1,38 @@
+#header{
+    width: 100%;
+    height: auto;
+    padding: 2rem 0;
+    @include d-flex(center,center,column);
+    .logo{
+        width: 250px;
+        text-align: center;
+        img{
+            width: 80%;
+        }
+    }
+    .start-btn{
+      background-color: #e57027;
+      padding: 10px 70px;
+      cursor: pointer;
+      border: 1px solid white;
+      border-radius: 5px;
+      color: white;
+      letter-spacing: 2px;
+      transition: .3s ease-in-out;  border-radius: 80% 20% 30% 70% / 70% 70% 30% 30%;
+      background: #ad5389;
+      background: -webkit-linear-gradient(to right,
+          #3c1053,
+          #ad5389);
+      background: linear-gradient(to right,#3c1053,#ad5389);
+      font:{
+        size:1.4rem;
+        weight:600;
+      }
+      &:hover{
+        color: #e57027;
+        background: -webkit-linear-gradient(to left,#3c1053,#ad5389);
+       background: linear-gradient(to left,#3c1053,#ad5389);
+      }
+    }
+
+}
